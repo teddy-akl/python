@@ -9,6 +9,9 @@ from keras.datasets import imdb
 
 (training_data, training_targets), (testing_data,
                                     testing_targets) = imdb.load_data(path="imdb.npz", num_words=10000)
+									
+# (training_data, training_targets), (testing_data,
+                                    testing_targets) = imdb.load_data(path="imdb.npz", num_words=10000)
 
 data = np.concatenate((training_data, testing_data), axis=0)
 
