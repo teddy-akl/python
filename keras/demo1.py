@@ -1,6 +1,3 @@
-# from https://towardsdatascience.com/how-to-build-a-neural-network-with-keras-e8faa33d0ae4
-# from http://www.cocoachina.com/ai/20180410/22966.html
-
 import numpy as np
 from keras.utils import to_categorical
 from keras import models
